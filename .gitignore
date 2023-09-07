@@ -1,0 +1,28 @@
+# CLion specific files/directories
+.idea/
+cmake-build-debug/
+*.iml
+
+# Compiled binaries
+*.o
+*.a
+*.out
+*.exe
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Other files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store  # For macOS
+
+# If using CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
